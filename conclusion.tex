@@ -1,0 +1,14 @@
+\section{Conclusion and future work}
+
+\subsection{Conclusion}
+In this thesis, we implemented a CamCom system that utilizes a \textbf{single LED} as the transmitter and a common \textbf{rolling shutter CMOS camera} as the receiver. We presented considerations for addressing issues caused by unsynchronized transmitter and receiver, including the introduction of \textbf{symbol delimiter, sequence number, and parity symbol} in the transmission. In each situation, we calculate the probability of symbol loss and mixed frame first, then decide which setting is suitable and adjust the parity symbol ratio by the probability. 
+
+Experimental results confirm that the additional designs would significantly improve the packet reception rate (PRR) from 0.6 to 0.99 when the transmitting and receiving frame rates are close. We also can improve the PRR from 0.0 to 0.8$\sim$1.0 even when the transmitting and receiving frame rates have a large difference or when the the receiving frames have varying inter-frame intervals. A variety of front/ back-facing cameras of smartphones can be used in our system without any modification. One can increase the throughput by 1.2 times by increasing the transmitting frame rate. Data still can be received when the height of LED object in the image is more than 400 pixel. The overall throughput reaches 18 bytes per second. The decoding application proves that series of step can be processed in real-time, with each image frame completely demodulation in merely 7 milliseconds.
+
+\subsection{Future Work}
+\textbf{Improve the iOS real-time decoding app.} There are many things can be improved. First is the LED detection. For now, we just threshold the image to binary and find the bright part as the boundary. However, it is not an efficient way and is affected by the surrounding light noise. We want to adopt the characteristics of the strips and use some Digital Image Processing (DIP) techniques to figure out.
+On the other hand, to get shorter exposure time, the current method is to move the camera to be very close to the LED light and lock the exposure time. It is not convenient in the real life scenarios since we are not able to get very close to the light. The Landmark paper~\cite{landmark} have proposed the algorithm which find the brightest part in the image then focus/ expose at it, which could be adapted to our system.
+
+\textbf{Increase the data rate.} There are severals ways to increase the data rate, we have tried increasing the transmitting frame rate. We also can increase the number of bits represented by each symbol. We can obtain a higher data rate with more transmitting symbols to carry the bits.
+
+\textbf{Consider more scenarios.} Currently we focus on the static environments. We still need to do more experiments in the moving scenario or dynamic environments to access the feasibility and reliability of our design.

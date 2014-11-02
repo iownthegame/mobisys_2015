@@ -1,0 +1,13 @@
+\section{Implementation}
+
+	% -介紹device跟implement細節
+	% -說明real-time(列出time)
+
+\subsection{Encoder} 
+For the transmitting end of the system, we implement a UHD application to generate the signal. It takes a given bit stream, and produces encoded frames following a predefined bit-to-symbol mapping and the frame layout described in the previous subsection. We use 1 MHz sampling rate and a given transmitting frame rate to generate samples within one frame. These samples are then encoded with bit 1s and 0s with the corresponding symbol frequency.
+The frames are then turned into analong signal and transmitted via LED light.
+
+\subsection{Decoder} 
+
+The decoder is implemented in several programming languages. Two are implemented in Matlab and C++ with OpenCV for post processing and analyzing. 
+The other is implemented in Objective-C with OpenCV as an iOS application for real-time processing. We will evaluate the processing time in \autoref{sec:ios_eval}.

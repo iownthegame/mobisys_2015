@@ -1,0 +1,58 @@
+大綱
+
+ABSTRACT (0.25)
+-
+
+INTRODUCTION(1)
+	-movivation
+	-proposed
+
+BACKGROUND AND RELATED WORK(1.5)
+	-related work
+		-LOS vs NLOS (SNR實驗)
+		-communication not only localization
+		-luxapose
+	-rolling shutter相關知識
+		-operation and channel model
+		-特色:跟perspective, orientation無關
+
+	CHALLENGES & SYSTEM OVERVIEW(1)
+	-challenge
+	-流程圖
+
+
+ROLLINGLIGHT DESIGN(5)
+	-TX
+		-modulation
+		-packet format
+	-RX
+		-led detection(multi)
+		-demodulation(yin vs fft)
+
+	-unsynchronization
+		-symbol delimiter
+		-seq_num
+		-parity
+		-實驗結果
+
+IMPLEMENTATION(1)
+	-介紹device跟implement細節
+	-說明real-time(列出time)
+
+EVALUATION(3.25)
+	-實驗方法,metric(PRR,throughput)
+	-device
+	-distance
+	-exposure duration
+	-background running
+
+CONCLUSION AND FUTURE WORK(0.5)
+
+ACKNOWLEDGEMENTS(0)
+
+REFERENCES(0.5)
+
+
+total:14
+
+
