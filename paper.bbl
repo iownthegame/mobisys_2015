@@ -21,6 +21,39 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{imagesensor}
+J.~Nakamura, \emph{Image Sensors and Signal Processing for Digital Still
+  Cameras}.\hskip 1em plus 0.5em minus 0.4em\relax Boca Raton, FL, USA: CRC
+  Press, Inc., 2005.
+
+\bibitem{el2005cmos}
+A.~El~Gamal and H.~Eltoukhy, ``{CMOS} image sensors,'' \emph{Circuits and
+  Devices Magazine}, vol.~21, no.~3, pp. 6--20, 2005.
+
+\bibitem{de2002yin}
+A.~De~Cheveign{\'e} and H.~Kawahara, ``Yin, a fundamental frequency estimator
+  for speech and music,'' \emph{The Journal of the Acoustical Society of
+  America}, vol. 111, no.~4, pp. 1917--1930, 2002.
+
+\bibitem{hu2013lightsync}
+W.~Hu, H.~Gu, and Q.~Pu, ``{LightSync}: unsynchronized visual communication
+  over screen-camera links,'' in \emph{Proceedings of Mobile computing and
+  networking}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2013, pp. 15--26.
+
+\bibitem{pointgrey_flea}
+``{PointGrey Flea3 Product Datasheet},''
+  \url{http://www.ptgrey.com/products/flea3/Flea3_Datasheet.pdf}.
+
+\bibitem{luxapose}
+\BIBentryALTinterwordspacing
+Y.-S. Kuo, P.~Pannuto, K.-J. Hsiao, and P.~Dutta, ``Luxapose: Indoor
+  positioning with mobile phones and visible light,'' in \emph{Proceedings of
+  the 20th Annual International Conference on Mobile Computing and Networking},
+  ser. MobiCom '14.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA:
+  ACM, 2014, pp. 447--458. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/2639108.2639109}
+\BIBentrySTDinterwordspacing
+
 \bibitem{perli2010pixnet}
 S.~D. Perli, N.~Ahmed, and D.~Katabi, ``Pixnet: interference-free wireless
   links using lcd-camera pairs,'' in \emph{Proceedings of Mobile computing and
@@ -30,11 +63,6 @@ S.~D. Perli, N.~Ahmed, and D.~Katabi, ``Pixnet: interference-free wireless
 T.~Hao, R.~Zhou, and G.~Xing, ``{COBRA}: color barcode streaming for smartphone
   systems,'' in \emph{Proceedings of Mobile systems, applications, and
   services}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2012, pp. 85--98.
-
-\bibitem{hu2013lightsync}
-W.~Hu, H.~Gu, and Q.~Pu, ``{LightSync}: unsynchronized visual communication
-  over screen-camera links,'' in \emph{Proceedings of Mobile computing and
-  networking}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2013, pp. 15--26.
 
 \bibitem{vrcodes}
 \BIBentryALTinterwordspacing
@@ -91,31 +119,6 @@ N.~Rajagopal, P.~Lazik, and A.~Rowe, ``Visual light landmarks for mobile
   Information Processing in Sensor Networks}, ser. IPSN '14.\hskip 1em plus
   0.5em minus 0.4em\relax Piscataway, NJ, USA: IEEE Press, 2014, pp. 249--260.
   [Online]. Available: \url{http://dl.acm.org/citation.cfm?id=2602339.2602367}
-\BIBentrySTDinterwordspacing
-
-\bibitem{imagesensor}
-J.~Nakamura, \emph{Image Sensors and Signal Processing for Digital Still
-  Cameras}.\hskip 1em plus 0.5em minus 0.4em\relax Boca Raton, FL, USA: CRC
-  Press, Inc., 2005.
-
-\bibitem{el2005cmos}
-A.~El~Gamal and H.~Eltoukhy, ``{CMOS} image sensors,'' \emph{Circuits and
-  Devices Magazine}, vol.~21, no.~3, pp. 6--20, 2005.
-
-\bibitem{de2002yin}
-A.~De~Cheveign{\'e} and H.~Kawahara, ``Yin, a fundamental frequency estimator
-  for speech and music,'' \emph{The Journal of the Acoustical Society of
-  America}, vol. 111, no.~4, pp. 1917--1930, 2002.
-
-\bibitem{pointgrey_flea}
-``{PointGrey Flea3 Product Datasheet},''
-  \url{http://www.ptgrey.com/products/flea3/Flea3_Datasheet.pdf}.
-
-\bibitem{Bridgelux}
-\BIBentryALTinterwordspacing
-I.~Bridgelux, ``Bridgelux {ES} array series product data sheet.'' [Online].
-  Available:
-  \url{http://media.digikey.com/pdf/Data%20Sheets/Bridgelux%20PDFs/ES_Array_Series.pdf}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

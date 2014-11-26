@@ -46,15 +46,19 @@
 % For tracking purposes - this is V2.0 - May 2012
 
 \documentclass{sig-alternate-10pt}
+\usepackage{amsmath}
 \usepackage{url}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\renewcommand*{\sectionautorefname}{Section}
+\renewcommand*{\subsectionautorefname}{Section}
+\renewcommand*{\subsubsectionautorefname}{Section}
 \hypersetup{
     colorlinks,
-    citecolor=blue,
-    filecolor=green,
-    linkcolor=red,
-    urlcolor=black
+    citecolor=magenta, 
+    filecolor=green, 
+    linkcolor=blue, %figures, sections
+    urlcolor=black 
 }
 \usepackage{caption}
 \usepackage{cleveref}
@@ -69,7 +73,7 @@
 %\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
 % --- End of Author Metadata ---
 
-\title{RollingLight:\\Universal Camera Communications for Single LED}
+\title{RollingLight: Enable Line-of-Sight Camera Communications}
 %\titlenote{(Produces the permission block, and
 %copyright information). For use with
 %SIG-ALTERNATE.CLS. Supported by ACM.}
@@ -120,12 +124,17 @@
 %
 % 1st. author
 \alignauthor
-Hui-Yu Lee, and Hsin-Mu Tsai\\
-       %\titlenote{Department of Computer Science and Information Engineering}\\
-       \affaddr{Department of Computer Science and Information Engineering}\\
-       \affaddr{National Taiwan University}\\
-       \affaddr{Taipei, Taiwan}\\
-       \email{\{r01922028, hsinmu\} @csie.ntu.edu.tw}
+% Hui-Yu Lee, Hao-Min Lin, Hsin-Mu Tsai and Kate Ching-Ju\\
+%        %\titlenote{Department of Computer Science and Information Engineering}\\
+%        \affaddr{Department of Computer Science and Information Engineering}\\
+%        \affaddr{National Taiwan University}\\
+%        \affaddr{Taipei, Taiwan}\\
+%        \email{\{r01922028, hsinmu\} @csie.ntu.edu.tw}
+% }
+Hui-Yu Lee\textsuperscript{\dag}, Hao-Min Lin\textsuperscript{\dag}, Hsin-Mu Tsai\textsuperscript{\dag}, and Kate Ching-Ju Lin\textsuperscript{\ddag} \\
+             \affaddr{\textsuperscript{\dag}Department of Computer Science and Information Engineering, National Taiwan University, Taiwan}\\
+             \affaddr{\textsuperscript{\ddag}Research Center for Information Technology Innovation, Academia Sinica, Taiwan}\\
+             \email{\{r01922028, d00922003, hsinmu\}@csie.ntu.edu.tw, katelin@citi.sinica.edu.tw}
 }
 % 2nd. author
 % \alignauthor
@@ -158,14 +167,15 @@ Hui-Yu Lee, and Hsin-Mu Tsai\\
 %\terms{Theory}
 
 %\keywords{ACM proceedings, \LaTeX, text tagging}
-\keywords{Visible Light Communications, Camera Communication, Rolling Shutter, Frequency Shift Keying, smartphones}
+\keywords{Visible Light Communications, Camera Communications, Rolling Shutter, Frequency Shift Keying, smartphones}
 
 \input{introduction.tex}
-\input{relatedwork.tex}
-\input{overview.tex}
+%\input{introduction_hsinmu.tex}
+\input{background.tex}
 \input{systemdesign.tex}
 \input{implementation.tex}
 \input{evaluation.tex}
+\input{relatedwork.tex}
 \input{conclusion.tex}
 \input{acknowledgement.tex}
 

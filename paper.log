@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.9.30)  2 NOV 2014 23:46
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.9.30)  26 NOV 2014 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -314,7 +314,7 @@ tly
 )
 \Hy@SectionHShift=\skip44
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 58.
+Package hyperref Info: Option `colorlinks' set `true' on input line 62.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -363,25 +363,104 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count122
 \c@subtable=\count123
 )
-(./paper.aux)
+(./paper.aux
+
+LaTeX Warning: Label `fig:bbox_ori' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_ori@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_ori' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_ori@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_blur' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_blur@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_blur' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_blur@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_otsu' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_otsu@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_otsu' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_otsu@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_template' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_template@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_template' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_template@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_haar' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_haar@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_haar' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_haar@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_result' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbox_result@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_result' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bbox_result@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 \AtBeginShipoutBox=\box31
 
 
@@ -396,7 +475,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: xetex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 64.
+Package hyperref Info: Link coloring ON on input line 68.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -406,9 +485,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./paper.out) (./paper.out)
 \@outlinefile=\write3
@@ -416,300 +495,318 @@ LaTeX Info: Redefining \nameref on input line 64.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 149.
+LaTeX Font Info:    Try loading font information for U+msa on input line 158.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 149.
+LaTeX Font Info:    Try loading font information for U+msb on input line 158.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 149.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 158.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) (./abstract.tex)
+)
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 158.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ae/omsaer.fd
+File: omsaer.fd 1999/12/27
+)
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
+ (./abstract.tex)
 (./introduction.tex
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
-File: fig/vlc_intro.png Graphic file (type QTm)
-
-<use  "fig/vlc_intro.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 ]
+File: pic/scenario.JPG Graphic file (type QTm)
+
+<use  "pic/scenario.JPG" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./relatedwork.tex
-Overfull \hbox (7.54724pt too wide) in paragraph at lines 21--22
-[]\T1/aer/m/n/10 VRCodes (News-Flash) [[][]4[][]] takes ad-van-tage of the roll
-ing
+Missing character: There is no → in font aer10!
+Missing character: There is no → in font aer10!
+Missing character: There is no → in font aer10!
+Missing character: There is no → in font aer10!
+Missing character: There is no → in font aer10!
+
+Overfull \hbox (2.4866pt too wide) in paragraph at lines 67--74
+\T1/aer/m/n/10 by un-syn-chro-nized trans-mit-ter and re-ceiver pairs. Chap-
  []
 
-[2]
-Overfull \hbox (14.54613pt too wide) in paragraph at lines 26--27
-\T1/aer/m/n/10 search works uti-liz-ing mul-ti-ple op-ti-cal trans-mit-ting sou
-rces. 
+) (./background.tex
+Overfull \hbox (1.31682pt too wide) in paragraph at lines 3--4
+\T1/aer/m/n/10 shift key-ing mod-u-la-tion and de-mod-u-la-tion scheme based
  []
 
-
-Underfull \vbox (badness 6396) has occurred while \output is active []
-
+[2] (./rollingshutter.tex
 File: fig/global_shutter.png Graphic file (type QTm)
-
-<use  "fig/global_shutter.png" >
+ <use  "fig/global_shutter.png" >
 File: fig/fan_global.png Graphic file (type QTm)
- <use  "fig/fan_global.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]\T1/aer/m/n/8 (b) |Global
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\T1/aer/m/n/8 Shut-ter
+<use  "fig/fan_global.png" >
+Underfull \hbox (badness 1142) in paragraph at lines 13--13
+[]\T1/aer/m/n/8 (b) |Global Shut-ter
  []
 
 File: fig/rolling_shutter.png Graphic file (type QTm)
 <use  "fig/rolling_shutter.png" >
 File: fig/fan_rolling.png Graphic file (type QTm)
  <use  "fig/fan_rolling.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]\T1/aer/m/n/8 (d) |Rolling
- []
+File: pic/rollingshutter.png Graphic file (type QTm)
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\T1/aer/m/n/8 Shut-ter
+<use  "pic/rollingshutter.png" >
+Overfull \hbox (21.97632pt too wide) in paragraph at lines 41--42
+ [][] 
  []
 
 [3]
-File: fig/RollingShutter2.png Graphic file (type QTm)
- <use  "fig/RollingShutter2.png" >
-Underfull \vbox (badness 3323) has occurred while \output is active []
-
-
-Overfull \hbox (2.62888pt too wide) in paragraph at lines 127--128
+Overfull \hbox (2.62888pt too wide) in paragraph at lines 66--67
 []\T1/aer/m/n/10 In sum-mary, the single-LED-to-rolling-shutter-camera
  []
 
-) (./overview.tex [4]) (./systemdesign.tex
-Overfull \hbox (14.93765pt too wide) in paragraph at lines 16--16
-[]\secfnt Rolling Shut-ter Frequency-Shift Key-ing (RS-
+) (./modulation.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 1.
+
+
+Overfull \hbox (30.74199pt too wide) in paragraph at lines 32--61
+ [][] 
  []
 
+) (./demodulation.tex
 File: fig/strip1.png Graphic file (type QTm)
-<use  "fig/strip1.png" >
+ <use  "fig/strip1.png" >
 File: fig/strip2.png Graphic file (type QTm)
  <use  "fig/strip2.png" >
 File: fig/strip3.png Graphic file (type QTm)
- <use  "fig/strip3.png" >
-File: fig/strip4.png Graphic file (type QTm)
 
-<use  "fig/strip4.png" > [5]
-Overfull \hbox (11.57787pt too wide) in paragraph at lines 104--104
-[]\secfnt Problem State-ment: Un-syn-chro-nized Trans-
+<use  "fig/strip3.png" > [4]) (./unsynchronized.tex
+Overfull \hbox (2.46976pt too wide) in paragraph at lines 1--1
+[]\secfnt Unsynchronized Trans-mit-ter and Re-ceiver 
  []
 
-[6]
-File: fig/tx_15.png Graphic file (type QTm)
- <use  "fig/tx_15.png" >
-File: fig/tx_20.png Graphic file (type QTm)
- <use  "fig/tx_20.png" >
-Overfull \hbox (16.43994pt too wide) in paragraph at lines 118--127
- []$[]$  $[]$ 
- []
+File: fig/tx_15_new.png Graphic file (type QTm)
+<use  "fig/tx_15_new.png" >
+File: fig/tx_20_new.png Graphic file (type QTm)
+ <use  "fig/tx_20_new.png" >
+File: fig/tx_29_new.png Graphic file (type QTm)
 
-File: fig/tx_29.png Graphic file (type QTm)
-<use  "fig/tx_29.png" >
-File: fig/tx_30_2.png Graphic file (type QTm)
- <use  "fig/tx_30_2.png" >
-Overfull \hbox (16.43994pt too wide) in paragraph at lines 128--137
- []$[]$  $[]$ 
+<use  "fig/tx_29_new.png" >
+File: fig/tx_30_2_new.png Graphic file (type QTm)
+ <use  "fig/tx_30_2_new.png" >
+Overfull \hbox (13.31982pt too wide) in paragraph at lines 5--24
+ []$[]$  $[]$  $[]$  $[]$ 
  []
 
 File: fig/tx_30.png Graphic file (type QTm)
 <use  "fig/tx_30.png" >
 File: fig/tx_40.png Graphic file (type QTm)
  <use  "fig/tx_40.png" >
-Overfull \hbox (16.43994pt too wide) in paragraph at lines 138--147
- []$[]$  $[]$ 
- []
-
 File: fig/tx_50.png Graphic file (type QTm)
-<use  "fig/tx_50.png" >
+ <use  "fig/tx_50.png" >
 File: fig/tx_60.png Graphic file (type QTm)
- <use  "fig/tx_60.png" >
-Overfull \hbox (16.43994pt too wide) in paragraph at lines 148--157
- []$[]$  $[]$ 
+
+<use  "fig/tx_60.png" >
+Overfull \hbox (13.31982pt too wide) in paragraph at lines 25--44
+ []$[]$  $[]$  $[]$  $[]$ 
  []
 
+
+Overfull \hbox (10.70694pt too wide) in paragraph at lines 55--56
+[]\T1/aer/bx/n/10 Received frame pat-terns. \T1/aer/m/n/10 We fol-low the ex-pe
+riement
+ []
+
+[5]
 File: fig/miss.png Graphic file (type QTm)
-<use  "fig/miss.png" > [7]
+ <use  "fig/miss.png" >
 File: fig/mix.png Graphic file (type QTm)
- <use  "fig/mix.png" >
-File: fig/mix_photo.png Graphic file (type QTm)
- <use  "fig/mix_photo.png" >
+ <use  "fig/mix.png" > [6])
+File: pic/5c.JPG Graphic file (type QTm)
+ <use  "pic/5c.JPG" >
+File: pic/5s.JPG Graphic file (type QTm)
+
+<use  "pic/5s.JPG" >
+File: pic/6plus.JPG Graphic file (type QTm)
+ <use  "pic/6plus.JPG" >) (./systemdesign.tex
+(./overview.tex)
+File: pic/mixed_frame.png Graphic file (type QTm)
+ <use  "pic/mixed_frame.png" >
 File: fig/mix2.png Graphic file (type QTm)
-
-<use  "fig/mix2.png" >
-File: fig/arch.png Graphic file (type QTm)
- <use  "fig/arch.png" > [8]
-File: fig/flow_tx.png Graphic file (type QTm)
- <use  "fig/flow_tx.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-File: fig/flow_rx.png Graphic file (type QTm)
-
-<use  "fig/flow_rx.png" >
-File: fig/tx_component.png Graphic file (type QTm)
- <use  "fig/tx_component.png" >
-File: fig/LED_array.jpg Graphic file (type QTm)
-
-<use  "fig/LED_array.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-\T1/aer/m/n/8 BXRA-
+ <use  "fig/mix2.png" >
+(./flow.tex [7]
+File: pic/arch.png Graphic file (type QTm)
+ <use  "pic/arch.png" >
+Overfull \hbox (5.91716pt too wide) in paragraph at lines 18--20
+[]  [] 
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 336--336
-\T1/aer/m/n/8 W0802 LED
+Overfull \hbox (4.39919pt too wide) in paragraph at lines 25--27
+[]\T1/aer/m/n/10 The pream-ble sym-bol, which has a sig-nal pe-riod known
  []
 
-File: fig/usrp.jpg Graphic file (type QTm)
-<use  "fig/usrp.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-[]\T1/aer/m/n/8 (b) |USRP
+File: pic/symbol_delimiter.png Graphic file (type QTm)
+<use  "pic/symbol_delimiter.png" >
+File: pic/bbox/bbox_A_original_crop.png Graphic file (type QTm)
+ <use  "pic/bbox/bbox_A_original_crop.png" >
+File: pic/bbox/bbox_B_gaussianBlur_crop.png Graphic file (type QTm)
+
+<use  "pic/bbox/bbox_B_gaussianBlur_crop.png" >
+File: pic/bbox/bbox_C_OTSU_crop.png Graphic file (type QTm)
+
+<use  "pic/bbox/bbox_C_OTSU_crop.png" >
+File: pic/bbox/bbox_E_template_crop.png Graphic file (type QTm)
+
+<use  "pic/bbox/bbox_E_template_crop.png" >
+File: pic/bbox/bbox_F_haar_crop.png Graphic file (type QTm)
+
+<use  "pic/bbox/bbox_F_haar_crop.png" >
+File: pic/bbox/bbox_H_stripedLED_crop.png Graphic file (type QTm)
+
+<use  "pic/bbox/bbox_H_stripedLED_crop.png" >
+Overfull \hbox (2.05078pt too wide) in paragraph at lines 43--72
+ []$[]$  $[]$  $[]$  $[]$  $[]$  $[]$ 
  []
 
+File: pic/bbox/bbox_A_original400_crop.png Graphic file (type QTm)
+<use  "pic/bbox/bbox_A_original400_crop.png" >
+File: pic/bbox/bbox_B_gaussianBlur400_crop.png Graphic file (type QTm)
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-\T1/aer/m/n/8 N200 Soft-
+<use  "pic/bbox/bbox_B_gaussianBlur400_crop.png" >
+File: pic/bbox/bbox_C_OTSU400_crop.png Graphic file (type QTm)
+
+<use  "pic/bbox/bbox_C_OTSU400_crop.png" >
+File: pic/bbox/bbox_E_template400_crop.png Graphic file (type QTm)
+
+<use  "pic/bbox/bbox_E_template400_crop.png" >
+File: pic/bbox/bbox_F_haar400_crop.png Graphic file (type QTm)
+
+<use  "pic/bbox/bbox_F_haar400_crop.png" >
+File: pic/bbox/bbox_H_stripedLED400_crop.png Graphic file (type QTm)
+
+<use  "pic/bbox/bbox_H_stripedLED400_crop.png" >
+Overfull \hbox (2.05078pt too wide) in paragraph at lines 73--102
+ []$[]$  $[]$  $[]$  $[]$  $[]$  $[]$ 
  []
 
-File: fig/VLC2_0.png Graphic file (type QTm)
-<use  "fig/VLC2_0.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
-\T1/aer/m/n/8 Front-end
+)) (./implementation.tex [8] (./components.tex)
+File: pic/tx_devices.png Graphic file (type QTm)
+ <use  "pic/tx_devices.png" >
+Overfull \hbox (12.0pt too wide) in paragraph at lines 21--25
+ []$[]$ 
  []
 
-File: fig/flea3.jpg Graphic file (type QTm)
-<use  "fig/flea3.jpg" >
-File: fig/iphone5s.png Graphic file (type QTm)
- <use  "fig/iphone5s.png" >
-Underfull \hbox (badness 3312) in paragraph at lines 361--361
-[]\T1/aer/m/n/8 (b) |Smart-Phone Cam-era
+File: pic/rx_devices.png Graphic file (type QTm)
+<use  "pic/rx_devices.png" >
+Overfull \hbox (12.0pt too wide) in paragraph at lines 26--30
+ []$[]$ 
  []
 
-[10]
-Overfull \hbox (5.67807pt too wide) in paragraph at lines 407--421
- [][] 
- []
+) (./evaluation.tex [9]
+File: pic/env_smartphone.JPG Graphic file (type QTm)
+ <use  "pic/env_smartphone.JPG" >
+File: pic/env_flea.JPG Graphic file (type QTm)
 
-) (./implementation.tex) (./evaluation.tex [11]
-Overfull \hbox (23.1699pt too wide) in paragraph at lines 53--53
-[]\secfnt Performance un-der Dif-fer-ent Re-ceiv-ing Frame
- []
-
-File: fig/exp1_setup.JPG Graphic file (type QTm)
-<use  "fig/exp1_setup.JPG" >
-File: fig/exp1_new.eps Graphic file (type eps)
- <fig/exp1_new.eps>
-Overfull \hbox (4.9885pt too wide) in paragraph at lines 83--84
+<use  "pic/env_flea.JPG" >
+Overfull \hbox (4.9885pt too wide) in paragraph at lines 48--49
 \T1/aer/m/n/10 dif-fer-ence be-tween the frame rates in-creases, the through-
  []
 
-[12]
-File: fig/norm.eps Graphic file (type eps)
- <fig/norm.eps>
-File: fig/norm_vary.eps Graphic file (type eps)
- <fig/norm_vary.eps>
-Overfull \hbox (1.38623pt too wide) in paragraph at lines 109--111
+File: fig/exp1_new.eps Graphic file (type eps)
+<fig/exp1_new.eps>
+File: fig/exp2_tr_new.eps Graphic file (type eps)
+ <fig/exp2_tr_new.eps>
+File: fig/exp2_refine.eps Graphic file (type eps)
+ <fig/exp2_refine.eps>
+Underfull \vbox (badness 1762) has occurred while \output is active []
+
+ [10]
+Overfull \hbox (1.38623pt too wide) in paragraph at lines 101--103
 \T1/aer/m/n/10 the trun-cated nor-mal dis-tri-bu-tion and trans-mit the sym-
  []
 
-[13]
-Overfull \hbox (225.03433pt too wide) in paragraph at lines 121--136
- [][] 
- []
 
+Underfull \vbox (badness 4582) has occurred while \output is active []
 
-Overfull \hbox (183.77817pt too wide) in paragraph at lines 145--159
- [][] 
- []
+File: fig/exp3_iphone5s_new_modify.eps Graphic file (type eps)
 
-File: fig/exp2_setup.JPG Graphic file (type QTm)
-<use  "fig/exp2_setup.JPG" >
-File: fig/exp2_tr_new.eps Graphic file (type eps)
- <fig/exp2_tr_new.eps> [14]
-File: fig/exp2_tr_error_thin.eps Graphic file (type eps)
+<fig/exp3_iphone5s_new_modify.eps>
+File: fig/exp4_iphone5s_new.eps Graphic file (type eps)
+ <fig/exp4_iphone5s_new.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<fig/exp2_tr_error_thin.eps>
-File: fig/exp2_tr_error.eps Graphic file (type eps)
- <fig/exp2_tr_error.eps>
-File: fig/exp2_refine.eps Graphic file (type eps)
- <fig/exp2_refine.eps>
-[15]
-Overfull \hbox (2.95683pt too wide) in paragraph at lines 230--231
+ [11]
+Overfull \hbox (2.95683pt too wide) in paragraph at lines 194--195
 []\T1/aer/m/n/10 The max trans-mit-ting frame rate for iPhone5s is about
  []
 
-File: fig/exp3_flea_new.eps Graphic file (type eps)
-<fig/exp3_flea_new.eps>
-File: fig/exp3_iphone5s_new.eps Graphic file (type eps)
- <fig/exp3_iphone5s_new.eps>
-File: fig/exp3_iphone5s_new_modify.eps Graphic file (type eps)
 
-<fig/exp3_iphone5s_new_modify.eps> [16]
-Overfull \hbox (131.96672pt too wide) detected at line 270
-[]\OML/cmm/m/it/10 distance\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 cm\OT1/cmr/m/n/10 
-) \OMS/cmsy/m/n/10 / [] []
+Overfull \hbox (70.52733pt too wide) detected at line 214
+ []$[][] []$ []  
+ []
+
+[12]
+Overfull \hbox (1.24649pt too wide) in paragraph at lines 253--254
+\T1/aer/m/n/10 through-put de-creases sig-nif-i-cantly; due to both a smaller
+ []
+
+File: pic/ios_using.JPG Graphic file (type QTm)
+<use  "pic/ios_using.JPG" >
+Underfull \vbox (badness 6396) has occurred while \output is active []
+
+)
+(./relatedwork.tex [13]
+Overfull \hbox (7.54724pt too wide) in paragraph at lines 21--22
+[]\T1/aer/m/n/10 VRCodes (News-Flash) [[][]9[][]] takes ad-van-tage of the roll
+ing
  []
 
 
-Overfull \hbox (167.12302pt too wide) in paragraph at lines 295--304
- [] 
+Overfull \hbox (14.54613pt too wide) in paragraph at lines 26--27
+\T1/aer/m/n/10 search works uti-liz-ing mul-ti-ple op-ti-cal trans-mit-ting sou
+rces. 
  []
 
-File: fig/exp4_setup.JPG Graphic file (type QTm)
-<use  "fig/exp4_setup.JPG" >
-Overfull \hbox (5.7074pt too wide) in paragraph at lines 309--310
- [][] 
- []
+) (./conclusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-File: fig/exp4_flea_new.eps Graphic file (type eps)
-<fig/exp4_flea_new.eps>
-File: fig/exp4_iphone5s_new.eps Graphic file (type eps)
- <fig/exp4_iphone5s_new.eps> [17]
-File: fig/ios_gui3.png Graphic file (type QTm)
-
-<use  "fig/ios_gui3.png" >) (./conclusion.tex [18]) (./acknowledgement.tex)
-(./paper.bbl [19])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
- [20
+ [14])
+(./acknowledgement.tex) (./paper.bbl [15])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+ [16
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
  (./paper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 191.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 201.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
  ) 
 Here is how much of TeX's memory you used:
- 11897 strings out of 493938
- 180844 string characters out of 6148857
- 273429 words of memory out of 5000000
- 15034 multiletter control sequences out of 15000+600000
- 48924 words of font info for 64 fonts, out of 8000000 for 9000
+ 11941 strings out of 493938
+ 181855 string characters out of 6148857
+ 273428 words of memory out of 5000000
+ 15048 multiletter control sequences out of 15000+600000
+ 50573 words of font info for 71 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 39i,11n,46p,1618b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,15n,46p,1617b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (20 pages).
+Output written on paper.pdf (16 pages).

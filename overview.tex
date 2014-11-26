@@ -1,4 +1,6 @@
-\section{CHALLENGES \& SYSTEM OVERVIEW}
-%-challenge
-%-流程圖
-test intro
+\subsection{Overview}
+
+\autoref{fig:SystemArchitecture} illustrates the system architecture of our proposed system.
+Data bits to be transmitted will first be split into bit patterns of a constant length. Each bit pattern is then mapped to a data symbol. Besides data symbols, we also add parity symbol, sequence number, preamble symbol, and symbol delimiter. The transmitting light is then driven to transmit a sequence of square waves according to pre-determined list of signal periods representing the entire data packet. 
+
+The receiving camera captures a series of images with the transmitting light. The receiver starts the demodulation process by determining the image area occupied by the transmitting light. A symbol delimiter detector is then executed to determine whether a symbol delimiter area presents in the image. If The estimated signal period will be mapped to a meta symbol. Then, the YIN algorithm can be executed to determine the signal periods of two image areas separated by the symbol delimiter. In this case, the signal periods of both symbols can be accurately estimated. The meta symbol is then split into a sequence number and a data symbol. The data string is finally obtained after mapping the sequence of data symbols back to the bit patterns, forming the original bit stream. 

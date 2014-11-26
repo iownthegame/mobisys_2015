@@ -1,58 +1,62 @@
 大綱
 
-ABSTRACT (0.25)
--
+0.ABSTRACT + Category + Keywords (0.5p)
 
-INTRODUCTION(1)
-	-movivation
-	-proposed
+1.INTRODUCTION(1.5p)
+	-how VLC works
+	-main contributions
 
-BACKGROUND AND RELATED WORK(1.5)
-	-related work
-		-LOS vs NLOS (SNR實驗)
-		-communication not only localization
-		-luxapose
+2.RELATED WORK(1.5p)
+	-LOS vs NLOS 
+	-communication not only localization
+	-luxapose
+	
+3.CHALLENGES & SYSTEM OVERVIEW(1p)
+	-challenges
+	-流程圖
+
+4.ROLLINGLIGHT DESIGN(4p)
 	-rolling shutter相關知識
 		-operation and channel model
 		-特色:跟perspective, orientation無關
-
-	CHALLENGES & SYSTEM OVERVIEW(1)
-	-challenge
-	-流程圖
-
-
-ROLLINGLIGHT DESIGN(5)
 	-TX
 		-modulation
 		-packet format
 	-RX
 		-led detection(multi)
 		-demodulation(yin vs fft)
-
 	-unsynchronization
 		-symbol delimiter
 		-seq_num
 		-parity
 		-實驗結果
 
-IMPLEMENTATION(1)
+5.IMPLEMENTATION(2p)
 	-介紹device跟implement細節
 	-說明real-time(列出time)
 
-EVALUATION(3.25)
+6.EVALUATION(2p)
 	-實驗方法,metric(PRR,throughput)
 	-device
 	-distance
 	-exposure duration
 	-background running
 
-CONCLUSION AND FUTURE WORK(0.5)
+7.CONCLUSION AND FUTURE WORK(0.5p)
 
-ACKNOWLEDGEMENTS(0)
+8.ACKNOWLEDGEMENTS(0)
 
-REFERENCES(0.5)
-
-
-total:14
+9.REFERENCES(1p)
 
 
+total:14p
+
+
+schedule
+11/3	訂好進度, paper format設定好, 大綱訂好
+		TX:看燈為什麼會微閃,編好4-bit table(parity 1/4?)
+		RX:錄5c/5s影片,確定可解(template? boudary detection?)
+11/10	完成一點實驗
+11/17	paper初版 完成缺的1/3實驗
+11/24	paper二版 完成缺的2/3實驗			11/28* 	abstract submission due
+12/1    完成缺的所有實驗,paper最後細節修改	12/5*   paper submission due

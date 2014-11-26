@@ -3,11 +3,30 @@
 	% -介紹device跟implement細節
 	% -說明real-time(列出time)
 
+\input{components.tex}
+
 \subsection{Encoder} 
 For the transmitting end of the system, we implement a UHD application to generate the signal. It takes a given bit stream, and produces encoded frames following a predefined bit-to-symbol mapping and the frame layout described in the previous subsection. We use 1 MHz sampling rate and a given transmitting frame rate to generate samples within one frame. These samples are then encoded with bit 1s and 0s with the corresponding symbol frequency.
 The frames are then turned into analong signal and transmitted via LED light.
 
-\subsection{Decoder} 
+For another architecture, we use the Fast PWM with OCRnA top mode and the interrupt mechanism to control the clock of the Microcontroller of the Arduino Mega board. We can set the symbol frequency, the duty cycle, and the symbol duration.
 
-The decoder is implemented in several programming languages. Two are implemented in Matlab and C++ with OpenCV for post processing and analyzing. 
+\subsection{Decoder} 
+We use the ffmpeg package to convert video into image frames. The decoder is implemented with OpenCV, which is a very powerful and efficient library to process images.
+%The decoder is implemented in several programming languages. Two are implemented in Matlab and C++ with OpenCV for post processing and analyzing. 
 The other is implemented in Objective-C with OpenCV as an iOS application for real-time processing. We will evaluate the processing time in \autoref{sec:ios_eval}.
+
+\begin{figure}[!t]
+  \centering
+    \begin{subfigure}[h]{0.5\textwidth}
+      \includegraphics[width=\textwidth]{pic/tx_devices.png} 
+      \caption{Transmitter Components} \label{fig:tx_component}
+    \end{subfigure}
+    \\
+    \begin{subfigure}[h]{0.5\textwidth}
+      \includegraphics[width=\textwidth]{pic/rx_devices.png} 
+      \caption{Receiver Components} \label{fig:rx_component}
+    \end{subfigure}
+  \caption{System Componenets}
+  \label{fig:components}
+\end{figure}

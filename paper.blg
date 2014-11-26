@@ -11,49 +11,46 @@ Database file #1: rollinglight.bib
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in Bridgelux
-Warning--empty year in Bridgelux
 
 Done.
 You've used 15 entries,
             4039 wiz_defined-function locations,
-            907 strings with 10423 characters,
-and the built_in function-call counts, 12460 in all, are:
-= -- 955
-> -- 286
-< -- 106
-+ -- 160
-- -- 46
-* -- 620
-:= -- 1790
-add.period$ -- 39
+            909 strings with 10555 characters,
+and the built_in function-call counts, 13186 in all, are:
+= -- 1015
+> -- 307
+< -- 115
++ -- 172
+- -- 49
+* -- 658
+:= -- 1874
+add.period$ -- 40
 call.type$ -- 15
 change.case$ -- 14
-chr.to.int$ -- 270
-cite$ -- 17
-duplicate$ -- 875
-empty$ -- 1089
-format.name$ -- 57
-if$ -- 2897
+chr.to.int$ -- 294
+cite$ -- 15
+duplicate$ -- 917
+empty$ -- 1148
+format.name$ -- 61
+if$ -- 3079
 int.to.chr$ -- 0
 int.to.str$ -- 15
-missing$ -- 155
+missing$ -- 163
 newline$ -- 78
 num.names$ -- 14
-pop$ -- 387
+pop$ -- 402
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 937
+skip$ -- 992
 stack$ -- 0
-substring$ -- 643
-swap$ -- 704
-text.length$ -- 16
+substring$ -- 699
+swap$ -- 752
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 15
-warning$ -- 2
-while$ -- 61
+warning$ -- 0
+while$ -- 65
 width$ -- 17
-write$ -- 172
-(There were 2 warnings)
+write$ -- 176

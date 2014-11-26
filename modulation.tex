@@ -1,0 +1,61 @@
+\subsection{Rolling Shutter Frequency-Shift Keying \\(RS-FSK) Modulation }
+
+The fundamental idea of RS-FSK is to use the square waves of a number of different \textbf{frequencies} as different symbols, mapped to different bit patterns of the same length. The signal of the $i$-th symbol is represented by the fundamental frequency $f_i$ of the square wave:
+\begin{equation}
+	s_i(t)= I_{\max} \left \lceil \frac{\cos (2 \pi f_i t)}{2} \right \rceil
+\end{equation} where $I_{\max}$ is the maximum output intensity of the transmitting light. 
+
+A frequency modulation is advantageous in the following aspects:
+%\begin{itemize}
+%\item
+(1) The transmitted frequency can be demodulated by receivers with different sampling rate, as long as the sampling rate satisfies the Nyquist rate requirement. This implies that cameras with different read-out time are all compatible to a single transmission signal format.
+(2) Demodulation is still possible when some segments of signal samples are lost in a symbol period, as long as the longest remaining signal segment has a length larger than the transmitted signal period. This addresses the time gap challenge previously described.
+(3) The average intensity stays the same for all symbols, implying that the transmission is not observable by human eyes as long as the frequency is higher than 100 Hz. 
+%\end{itemize}
+
+In addition, a square wave has some key properties which make it suitable for our purposes:
+%\begin{itemize}
+(1) It survives the moving average filtering mechanism due to the exposure operation, as long as the signal period is not an integer multiple of the exposure time. This is true even for very long exposure time. Most important of all, the fundamental frequency of the square wave remains the same and accurately observable after filtering.
+(2) It is extremely simple and can be implemented with cheap microcontrollers or PWM driver chips. No DAC is needed to output signal at different amplitude levels.
+(3) The modulation supports dimming by transmitting a modified square wave at the same frequency, but with different ratio of ON state and OFF state, i.e., duty cycle. 
+
+\autoref{fig:freq_strip} shows the received images of different transmitting frequencies.
+%We will introduce the demodulation process in~\autoref{sec:demodulation}.
+%\end{itemize}
+
+\begin{table}[!t]
+\hspace{-20em}
+\small
+\centering
+\caption{Summary of Camera Parameters}
+   \tabcolsep=0.05cm
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+                    % & Image Resolution & Frame Rate & Measured & Time Gap (ms)    \\
+                    % &   ($X_{\max}$ x $Y_{\max}$)                &  (fps)          &  Read-out &  (Percentage of       \\ 
+                    % &  &  & Time ($\mu$s) &  Frame Duration)   \\ 
+      %& Image Resolution & Frame Rate & Measured Read-out & Time Gap (ms)    \\
+      %&   ($X_{\max}$ x $Y_{\max}$)                &  (fps)          & Time ($\mu$s) &  (Percentage of       \\ 
+      %&  &  &  &  Frame Duration)   \\  
+
+    & Image           & Frame  & Measured    &  Time Gap (ms)    \\
+    & Resolution                & Rate   & Read-out    &  (Percentage of   \\ 
+    & ($X_{\max}$ x $Y_{\max}$) & (fps)  & Time ($\mu$s) &  Frame Duration)  \\  
+    \hline \hline
+
+    Point Grey Flea3 & 2048x1080          & 30         & 14.73             & 17.42 (52.27\%) \\ \hline
+
+    Apple iPhone 6 Plus  & 1920x1080      & 30      & 21.42                   & 10.20 (30.60\%) \\ \hline
+
+    Apple iPhone 5s  & 1920x1080          & 29.98      & 20.65                   & 11.03 (33.10\%) \\ \hline
+    %Apple iPhone 4S  & 1920x1080          & 29.87      & 24.48                   & 7.04 (21.03\%) \\ \hline
+    
+    HTC New One      & 1920x1080          & 29.94         & 19.08              & 12.79 (38.30\%) \\ \hline
+    Samsung Galaxy S4  & 1920x1080          & 29.93         & 25.53           & 5.84 (17.48\%) \\ \hline
+
+    %Apple iPhone 4   & 1280x720           & 29.97      & 44.88                   & 1.05 (3.15\%)  \\ \hline
+    %HTC Desire HD    & 800x480            & 29.08      & 55.18                   & 7.90 (22.97\%) \\ \hline
+    %Google Nexus One & 720x480            & 30.57      & 59.66                   & 4.07 (12.45\%) \\ \hline
+    \end{tabular}
+    \label{tab:readout}
+\end{table}
